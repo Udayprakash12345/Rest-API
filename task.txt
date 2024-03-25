@@ -1,0 +1,16 @@
+REST API  -  JSON
+
+GET /users  - List all users 
+
+GET /users/1 - Get the user wih ID  1
+GET /users/2 - GET the user with ID  2
+
+Dynamic Path parameers 
+GET /api/users/:id 
+:id means - Variable | Dynamic
+
+POST /users  - Create new user 
+
+PATCH /users/1 - Edit the user with ID  1
+ 
+ DELETE /users/1 - Delete the user wih ID 1
